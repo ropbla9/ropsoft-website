@@ -2,12 +2,11 @@
   "name": "ropsoft-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "start",
   "scripts": {
     "start": "http-server --cors --log-ip --port 0",
     "start:dev": "PORT=80 http-server --cors --log-ip",
-    "dev": "http-server --cors --log-ip",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "http-server --cors --log-ip"
   },
   "repository": {
     "type": "git",

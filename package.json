@@ -1,0 +1,29 @@
+{
+  "name": "ropsoft-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server --cors --log-ip --port 0",
+    "start:dev": "PORT=80 http-server --cors --log-ip",
+    "dev": "http-server --cors --log-ip",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ropbla9/ropsoft-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ropbla9/ropsoft-website/issues"
+  },
+  "homepage": "https://github.com/ropbla9/ropsoft-website#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": "17.12.1",
+    "npm": "8.19.2"
+  }
+}
